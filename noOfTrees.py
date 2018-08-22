@@ -9,7 +9,8 @@ def number_of_binary_trees(n: int):
     return count.pop()
 
 # main
-if __name__ == "__main__":
+if __name__ == '__main__':
+
     for i in range(0, int(input())):
         n = int(input())
         result = number_of_binary_trees(n)
